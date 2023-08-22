@@ -9,7 +9,7 @@ provider "aws" {
 }
 
 resource "aws_s3_bucket" "b" {
-  bucket = "vishal-bkt-22"
+  bucket = "bkt-vishal-final"
   acl    = "private"
 
   versioning {
