@@ -3,13 +3,13 @@ terraform {
 }
 
 provider "aws" {
-  access_key = "AKIA4DN5TV67YT3EE52A"
-  secret_key = "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"
+  access_key = "AKIASMJSK6OY2YJ5H65A"
+  secret_key = "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"
   region     = "us-east-1"
 }
 
 resource "aws_s3_bucket" "b" {
-  bucket = "my-bkt-22-aug"
+  bucket = "vishal-bkt-22"
   acl    = "private"
 
   versioning {
