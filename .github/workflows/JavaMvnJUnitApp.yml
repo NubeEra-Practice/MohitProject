@@ -47,3 +47,4 @@ jobs:
           export AWS_SECRET_ACCESS_KEY=vGRnLIOZsF8hXQ3FJ3IQ67V6Q2QaHrC9WqH6fjEY
           export AWS_DEFAULT_REGION=us-east-1
           aws s3 ls
+          aws s3 cp Tomcat-DeployWAR.war s3://mohit-bkt-22-august
