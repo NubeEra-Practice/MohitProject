@@ -43,5 +43,7 @@ jobs:
       - name: 10. Deploy and Run Project
         run: |
           cd target
-          ls
-          ls  target/dependency/
+          export AWS_ACCESS_KEY_ID=AKIA4DN5TV67YT3EE52A
+          export AWS_SECRET_ACCESS_KEY_ID=vGRnLIOZsF8hXQ3FJ3IQ67V6Q2QaHrC9WqH6fjEY
+          export AWS_DEFAULT_REGION=us-east-1
+          aws s3 ls
